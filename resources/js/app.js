@@ -28,7 +28,7 @@ country_list.forEach((country) => {
 
 function fetchData(country) {
   user_country = country;
-  country_name_element.innerHTML = "Loading...";
+  country_name_element.innerHTML = "Đang tải...";
 
   (cases_list = []),
     (recovered_list = []),
